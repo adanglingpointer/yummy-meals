@@ -37,7 +37,7 @@ const AvailableMeals = () => {
     };
 
 /*
-        This will not work because if a await returns an error,
+        This will not work because if an await returns an error,
           the promise is rejected. We can not use await fetchMeals()
           because we can not turn useEffect into an async function.
 
